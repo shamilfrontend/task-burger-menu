@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Burger menu</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <h1>Бургер меню</h1>
+  <label>
+    <input
+      type="checkbox"
+      checked
+      disabled
+      data-cost="10"
+      data-kkal="75"
+      class="menu-item"
+    >
+    Булочка
+  </label>
+  <hr>
+
+  <h2>Наполнение</h2>
+  <label>
+    <input
+      type="checkbox"
+      checked
+      data-cost="20"
+      data-kkal="200"
+      class="menu-item"
+    >
+    Котлета
+  </label>
+  <label>
+    <input
+      type="checkbox"
+      data-cost="12"
+      data-kkal="100"
+      class="menu-item"
+    >
+    Сыр
+  </label>
+  <label>
+    <input
+      type="checkbox"
+      data-cost="8"
+      data-kkal="50"
+      class="menu-item"
+    >
+    Салат
+  </label>
+  <label>
+    <input
+      type="checkbox"
+      data-cost="2"
+      data-kkal="20"
+      class="menu-item"
+    >
+    Огурец
+  </label>
+  <label>
+    <input
+      type="checkbox"
+      data-cost="4"
+      data-kkal="67"
+      class="menu-item"
+    >
+    Помидор
+  </label>
+  <hr>
+
+  <h2>Соусы</h2>
+  <label>
+    <input
+      type="checkbox"
+      checked
+      data-cost="5"
+      data-kkal="10"
+      class="menu-item"
+    >
+    Томатный кетчуп
+  </label>
+  <label>
+    <input
+      type="checkbox"
+      data-cost="5"
+      data-kkal="5"
+      class="menu-item"
+    >
+    Горчица
+  </label>
+  <label>
+    <input
+      type="checkbox"
+      data-cost="5"
+      data-kkal="12"
+      class="menu-item"
+    >
+    Майонез
+  </label>
+  <label>
+    <input
+      type="checkbox"
+      data-cost="10"
+      data-kkal="35"
+      class="menu-item"
+    >
+    Сычуанский соус
+  </label>
+  <hr>
+
+  <h3>Итого:</h3>
+  <p>
+    Калорийность: <span id="kilo-calorie-total"></span>
+    Цена: <span id="cost-total"></span>
+  </p>
+
+  <button id="calculate">Рассчитать</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
