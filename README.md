@@ -7,3 +7,5 @@
 <br>
 Вычислить стоимость и калорийность бургера.
 </p>
+
+#### Demo - https://shamilfrontend.github.io/task-burger-menu/
